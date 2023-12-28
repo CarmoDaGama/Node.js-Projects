@@ -6,4 +6,4 @@ const testFunction = async (req: Request, res: Response, next: NextFunction) => 
     return res.send(result.data);
 };
 
-export default testFunction;
+export default { testFunction };
